@@ -1,3 +1,60 @@
 body h1, h2, h3, h4, h5, h6{
     font-family: 'Work Sans', sans-serif;
 }
+
+     /* header-Style  */
+     .jon-header .navbar-brand {
+           font-size: 25px;
+        font-weight: 500;
+     }
+     .jon-header span {
+         display: inline-block;
+         background: #6278df;
+         color:#fff;
+         height: 43px;
+         width: 40px;
+         text-align: center;
+         border-radius: 10px;
+        font-size: 28px;
+        position: relative;
+        top: 3px;
+     }
+
+
+/* slider-section */
+.slider-section{
+    background: url(img/1.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+
+.slider-section h4{
+    margin-bottom: 35px;
+}
+
+.slider-section h2 {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.slider-caption .btn{
+background: #5ba533;
+padding: 10px 20px;
+font-size: 30px;
+font-weight: 600;
+}
+.slider-caption .form-control{
+    padding: 18px 20px;
+}
