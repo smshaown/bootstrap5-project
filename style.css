@@ -118,5 +118,29 @@ p.h2 {
     left: -80px;
 }
 
+/* Portfolio-item */
+.protfolio-item{}
+.protfolio-item a{
+    position: relative;
+    display: block;
+}
+.protfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.protfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
 
 
