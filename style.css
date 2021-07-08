@@ -1,29 +1,36 @@
-body h1, h2, h3, h4, h5, h6{
+body,h1,h2,h3,h4,h5,h6{
     font-family: 'Work Sans', sans-serif;
 }
 
-     /* header-Style  */
-     .jon-header .navbar-brand {
-           font-size: 25px;
-        font-weight: 500;
-     }
-     .jon-header span {
-         display: inline-block;
-         background: #6278df;
-         color:#fff;
-         height: 43px;
-         width: 40px;
-         text-align: center;
-         border-radius: 10px;
-        font-size: 28px;
-        position: relative;
-        top: 3px;
-     }
+img{
+    max-width: 100%;
+}
 
+/* Header Style */
+.jon-header .navbar-brand {
+	font-size: 25px;
+	font-weight: 500;
+}
+.jon-header span {
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 43px;
+	width: 40px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 28px;
+	position: relative;
+	top: 3px;
+}
+.jon-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
 
-/* slider-section */
+/* Slider Section */
 .slider-section{
-    background: url(img/1.jpg) no-repeat center center;
+    background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat center center;
     padding: 200px 0;
     position: relative;
     z-index: 1;
@@ -38,23 +45,78 @@ body h1, h2, h3, h4, h5, h6{
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
-
-
-.slider-section h4{
+.slider-caption h4 {
     margin-bottom: 35px;
 }
-
-.slider-section h2 {
+.slider-caption h2 {
     margin-bottom: 50px;
-    font-size: 45px;
+    font-size: 46px;
 }
 
-.slider-caption .btn{
-background: #5ba533;
-padding: 10px 20px;
-font-size: 30px;
-font-weight: 600;
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
-.slider-caption .form-control{
+.slider-caption .form-control {
     padding: 18px 20px;
 }
+
+/* Number  section  */
+p.h2 {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+.number-counter p.h2  {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.number-counter .text-muted {
+    color: #6c757d!important;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* About Section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left {
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 20px;
+}
+
+
+
+
+/*  Feature Section css */
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+
+
